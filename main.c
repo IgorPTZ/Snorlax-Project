@@ -64,14 +64,13 @@ int main(void)
                     big2.a,big2.b,big2.c,big2.d,big2.e,big2.f,big2.g,big2.h,big2.i,big2.j,big2.k,big2.l,big2.m,
                     big2.n,big2.o,big2.p,big2.q,big2.r,big2.s,big2.t,big2.u,big2.v,big2.x,big2.z);
         while(1){
-             if(strcmp(big1.a,big2.b)!= 0 || strcmp(big1.a,big2.b) == 0){
                 BlockInput(1);
                 fprintf(ptrCB1,"%-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s%"
                     "-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s%-40s",
                     big1.a,big1.b,big1.c,big1.d,big1.e,big1.f,big1.g,big1.h,big1.i,big1.j,big1.k,big1.l,big1.m,
                     big1.n,big1.o,big1.p,big1.q,big1.r,big1.s,big1.t,big1.u,big1.v,big1.x,big1.z);
-             }
-             fscanf(ptrSnx2,"%s%s%s%s%s%s%s%s%s%s%s%s%s%"
+       
+                fscanf(ptrSnx2,"%s%s%s%s%s%s%s%s%s%s%s%s%s%"
                     "s%s%s%s%s%s%s%s%s%s%s",
                     big2.a,big2.b,big2.c,big2.d,big2.e,big2.f,big2.g,big2.h,big2.i,big2.j,big2.k,big2.l,big2.m,
                     big2.n,big2.o,big2.p,big2.q,big2.r,big2.s,big2.t,big2.u,big2.v,big2.x,big2.z);
